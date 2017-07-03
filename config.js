@@ -1,7 +1,7 @@
 module.exports = {
-    FB_PAGE_TOKEN: '',
-    FB_VERIFY_TOKEN: '',
-    API_AI_CLIENT_ACCESS_TOKEN: '',
-    FB_APP_SECRET: '',
-    SERVER_URL: "",
+    FB_PAGE_TOKEN: 'EAABysxCt9ckBAGog82qs19kQDOnemQuZCQZCzMPTOOLqAA1L5ZCoZCGtDGfiVquotAVVcSZBlBCn7KxtL3nYMzituZCzujZB8EjcnkwScEGeJjpr4G74bWa7og27qqd2gPKkBc3UGvU2PdZAprxBn7DFwUwnazznWwvUTD82KGrPvQZDZD',
+    FB_VERIFY_TOKEN: 'B`OWZ8MbMCNDO;WTX]6TOC`GgB^F3&FdcTUHs"Gm[4VQV8#)I2#[kd0Cq.w?N@}',
+    API_AI_CLIENT_ACCESS_TOKEN: '5580c280df6d4c5f87e5ddd787c06c67',
+    FB_APP_SECRET: '55740b3cdfaf9384206133db9f8280c7',
+    SERVER_URL: "https://bot.turisticket.com/webhook/",
 };
