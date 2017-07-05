@@ -184,6 +184,26 @@ function handleEcho(messageId, appId, metadata) {
 
 function handleApiAiAction(sender, action, responseText, contexts, parameters) {
 	switch (action) {
+		case 'tour-destinos':
+			const replies = [
+				{
+					content_type: "text",
+					title: "La Serena",
+					payload: "la-serena"
+				},
+				{
+					content_type: "text",
+					title: "Valle del Elquí",
+					payload: "valle-elqui"
+				},
+				{
+					content_type: "text",
+					title: "Vicuña",
+					payload: "vicuna"
+				}
+			];
+			sendQuickReply(sender, responseText, replies);
+			break;
 		default:
 			//unhandled action, just send back the text
 			sendTextMessage(sender, responseText);
